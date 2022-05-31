@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Open Sans' , sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .menu{
@@ -78,7 +79,6 @@ h1, h2{
 
 .aprendi{
     display: inline-block;
-    text-align: center;
     width: 30%;
     margin: 0 1.5%;
     padding: 30px 20px;
@@ -86,11 +86,23 @@ h1, h2{
     border: 2px solid #c2c0c2;
     background-color: #c2c0c2;
     border-radius: 10px;
+    text-align: center;
 }
 
+ul{
+    padding: 30px 20px;
+    margin: 40px;
+}
+
+
+
 footer{
-    background-color: black;
+    background-color: rgb(27, 27, 27);
     text-align: center;
     margin-top: 100px;
     padding: 60px;
+}
+
+a{
+    margin: 10px;
 }
