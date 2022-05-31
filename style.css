@@ -54,14 +54,43 @@ h1, h2{
 
 */
 
-div{
-    display: inline-block;
-    width: 25%;
-    height: 150px;
+.imagem{
+    border-radius: 100px;
+}
+
+
+.segunda{
+    text-align: center;
 }
 
 .img{
-    height: 100px;
-    width: 100px;
-    margin-left: 30px
+    display: inline-block; 
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #c2c0c2;
+    background-color: #c2c0c2;
+    border-radius: 10px;
+}
+
+.aprendi{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #c2c0c2;
+    background-color: #c2c0c2;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+    padding: 60px;
 }
